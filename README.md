@@ -1,6 +1,6 @@
-[![GitHub release](https://img.shields.io/github/release/tonywagner/plugin.video.mlbserver.svg)](https://github.com/tonywagner/plugin.video.mlbserver/releases)
+[![GitHub release](https://img.shields.io/github/release/crunchewy/plugin.video.mlbserver.svg)](https://github.com/crunchewy/plugin.video.mlbserver/releases)
 ![License](https://img.shields.io/badge/license-GPL%20(%3E%3D%202)-orange)
-[![Contributors](https://img.shields.io/github/contributors/tonywagner/plugin.video.mlbserver.svg)](https://github.com/tonywagner/plugin.video.mlbserver/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/crunchewy/plugin.video.mlbserver.svg)](https://github.com/crunchewy/plugin.video.mlbserver/graphs/contributors)
 
 # Notes
 
@@ -23,18 +23,18 @@ Choose any one of these three methods to install and run:
 
 1. Kodi version 21 (Omega) or newer  
    * [Download and install Kodi](https://kodi.tv/download/) (see this [guide](https://troypoint.com/how-to-install-kodi-on-fire-tv/) for installing on a Fire Stick)  
-   * Download the [latest release ZIP file](https://github.com/tonywagner/plugin.video.mlbserver/releases/latest/download/plugin.video.mlbserver.zip) and copy to your Kodi device (or just use code 302431 in the Downloader app on your Fire Stick)  
+   * Download the [latest release ZIP file](https://github.com/crunchewy/plugin.video.mlbserver/releases/latest/download/plugin.video.mlbserver.zip) and copy to your Kodi device (or just use code 302431 in the Downloader app on your Fire Stick)  
    * Launch Kodi and install the ZIP in the Addons section (Kodi will prompt you to allow installing addons from unknown sources)  
    * __**Note:** Windows users must also install the [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) version 14.40.33810.0 or later to [satisfy InputStream Adaptive](https://github.com/xbmc/inputstream.adaptive/issues/1589)__  
 
-2. [Docker](https://hub.docker.com/r/tonywagner/plugin.video.mlbserver)
-   * Download the [docker-compose.yml](https://raw.githubusercontent.com/tonywagner/plugin.video.mlbserver/master/docker-compose.yml) template, update the time zone in the file to your own, and create and start the container from a command prompt or terminal like '''docker compose up --detach'''  
+2. [Docker](https://hub.docker.com/r/crunchewy/plugin.video.mlbserver)
+   * Download the [docker-compose.yml](https://raw.githubusercontent.com/crunchewy/plugin.video.mlbserver/master/docker-compose.yml) template, update the time zone in the file to your own, and create and start the container from a command prompt or terminal like '''docker compose up --detach'''  
    * Alternately, you can run the command '''docker run -d --name plugin.video.mlbserver --env TZ="America/New_York" -p 5714:5714 --volume ./data:/plugin.video.mlbserver/data tonywagner/plugin.video.mlbserver''' (substituting your own time zone, of course)  
 
 3. Python (3.11.7 or newer) with the "requests" module installed  
    * [Download and install Python 3](https://www.python.org/downloads/) if you don't have it already  
    * Install the Python "requests" module like `pip3 install requests`
-   * [Download and unzip the [latest release ZIP file](https://github.com/tonywagner/plugin.video.mlbserver/releases/latest/download/plugin.video.mlbserver.zip)  
+   * [Download and unzip the [latest release ZIP file](https://github.com/crunchewy/plugin.video.mlbserver/releases/latest/download/plugin.video.mlbserver.zip)  
    * Run the service script like `python3 plugin.video.mlbserver/service.py`
 
 # Usage
