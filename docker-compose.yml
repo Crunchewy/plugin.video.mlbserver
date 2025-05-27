@@ -1,7 +1,7 @@
 version: "3"
 services:
   plugin.video.mlbserver:
-    image: tonywagner/plugin.video.mlbserver
+    image: crunchewy/plugin.video.mlbserver
     container_name: plugin.video.mlbserver
     environment:
       - TZ=America/New_York
