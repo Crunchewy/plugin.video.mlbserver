@@ -4,7 +4,7 @@
 
 # Notes
 
-This software is in a PRE-ALPHA state. Intended as an eventual replacement for [mlbserver](https://github.com/tonywagner/mlbserver)
+This software is in a PRE-ALPHA state. Intended as an eventual replacement for [mlbserver](https://github.com/crunchewy/mlbserver)
 
 # Current Features
 
@@ -29,7 +29,7 @@ Choose any one of these three methods to install and run:
 
 2. [Docker](https://hub.docker.com/r/crunchewy/plugin.video.mlbserver)
    * Download the [docker-compose.yml](https://raw.githubusercontent.com/crunchewy/plugin.video.mlbserver/master/docker-compose.yml) template, update the time zone in the file to your own, and create and start the container from a command prompt or terminal like '''docker compose up --detach'''  
-   * Alternately, you can run the command '''docker run -d --name plugin.video.mlbserver --env TZ="America/New_York" -p 5714:5714 --volume ./data:/plugin.video.mlbserver/data tonywagner/plugin.video.mlbserver''' (substituting your own time zone, of course)  
+   * Alternately, you can run the command '''docker run -d --name plugin.video.mlbserver --env TZ="America/New_York" -p 5714:5714 --volume ./data:/plugin.video.mlbserver/data crunchewy/plugin.video.mlbserver''' (substituting your own time zone, of course)  
 
 3. Python (3.11.7 or newer) with the "requests" module installed  
    * [Download and install Python 3](https://www.python.org/downloads/) if you don't have it already  
