@@ -4,7 +4,7 @@
 
 # Notes
 
-This software is in a PRE-ALPHA state. Intended as an eventual replacement for [mlbserver](https://github.com/crunchewy/mlbserver)
+This software is in a PRE-ALPHA state. Tony Wagner created this version of mlbserver and I greatly prefered it to the original one, mostly becuase the user interface is much more usable on TV browser, which is how I use it. Tony intended it as an eventual replacement for his [mlbserver](https://github.com/tonywagner/mlbserver) but seems to have dropped the idea. I didn't want it to die, so here you go. The rest of this readme is the same, except that the download links are updated to point to this version so they work again. The docker-compose.yml was also updated to point to this version and so works. I hope you enjoy this being back from the dead and please give all the thanks to Tony, not me!
 
 # Current Features
 
